@@ -1,4 +1,4 @@
-package sample;
+package reflex.compilers;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import flex2.compiler.util.TraceExtension;
 
 /**
  * This compiler extension processes metadata and generates the proper Reflex actionscript code from it.
- * @author Andrew Westberg <andrew@swiftmako.com>
+ * @author Marvin Froeder <velo.br@gmail.com> and Andrew Westberg <andrew@swiftmako.com>
  */
 public class SampleMxmlCompilerExtension
     implements IMxmlCompilerExtension {
