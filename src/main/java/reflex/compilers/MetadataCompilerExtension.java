@@ -14,7 +14,7 @@ import flex2.compiler.util.TraceExtension;
  * This compiler extension processes metadata and generates the proper Reflex actionscript code from it.
  * @author Marvin Froeder <velo.br@gmail.com> and Andrew Westberg <andrew@swiftmako.com>
  */
-public class SampleMxmlCompilerExtension
+public class MetadataCompilerExtension
     implements IMxmlCompilerExtension {
 
     public void run(List<Extension> mxmlCompilerExtension, String gendir, MxmlConfiguration mxmlConfiguration,
